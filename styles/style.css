@@ -83,7 +83,7 @@ form input{
   flex-wrap:wrap;
   justify-content: space-around; 
   padding: 27px;
-   border:none;
+   border:2px soild black;
   text-align:center ;
 }
 
@@ -100,7 +100,7 @@ button{
   border-radius: 50%;
   box-shadow: inset -5px -5px 12px white, inset 5px 5px 12px rgba(0,0,0,.16);
   font-size: 2rem;
-  border:none;
+  border:2px solid black;
 
 }
 
@@ -112,12 +112,12 @@ button{
   border-radius: 10px;
   font-size: 17px;
   margin-right: -1rem;
-  border:none;
+  border:2px solid black;
 
 }
 
 .btn-clear{
-  border:none;
+  border:2px solid black;
   text-align:center;
   font-size: 10px;
   font-weight: 600;
@@ -156,7 +156,7 @@ font-size: 7px;
 
 .btn-equal{
   font-size: 1.55rem;
-  border:none;
+  border:2px solid black;
   
 }
 
