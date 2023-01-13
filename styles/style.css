@@ -153,6 +153,11 @@ input::-webkit-inner-spin-button {
 font-size: 7px;
 }
 
+button:hover{
+  color: rgb(10, 145, 199);
+  border: rgb(7, 153, 211) solid 1px;
+  background:#fff;
+}
 
 .btn-equal{
   font-size: 1.55rem;
