@@ -83,10 +83,9 @@ form input{
   flex-wrap:wrap;
   justify-content: space-around; 
   padding: 27px;
-
+   border:none;
   text-align:center ;
 }
-
 
 button{
   text-align: center;
@@ -113,10 +112,12 @@ button{
   border-radius: 10px;
   font-size: 17px;
   margin-right: -1rem;
+  border:none;
 
 }
 
 .btn-clear{
+  border:none;
   text-align:center;
   font-size: 10px;
   font-weight: 600;
@@ -155,6 +156,7 @@ font-size: 7px;
 
 .btn-equal{
   font-size: 1.55rem;
+  border:none;
   
 }
 
