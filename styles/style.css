@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');     
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+
+*,*::after,
+::before{
+  margin: 0%;
+  padding:0%;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+html{
+  font-size: 16px;
+
+}
+:root{
+  --clr-white:white;
+  --clr-black:black;
+  --amber-yellow: #ffbe0bff;
+--orange-pantone: #fb5607ff;
+--winter-pink: #ff006eff;
+--blue-violet: #8338ecff;
+--azure-blue: #3a86ffff;
+--box-shadow: 0px 22px 12px rgba(0,0,0,0.15);
+}
+body{
+  font-family: 'Roboto', sans-serif;
+min-height: 100vh;
+align-items: center;
+justify-content: center;
+display: flex; 
+}
+/* global css */
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+a{
+text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+
+.calculator{
+  height:470px;
+  width: 280px;
+  background-color: #1a97d5;
+  overflow: hidden;
+  border-radius: 25px;
+    box-shadow: inset 3px 3px 9px rgb(233, 220, 220),5px 5px 12px rgba(0,0,0,.16);
+
+
+}
+
+form input{
+  border-radius: 15px;
+  margin-left: 0.92rem;
+  height: 10vh;
+  width: 90%;
+  padding: 2.55rem;
+  border: none;
+  pointer-events: none;
+  margin-top: 1rem;
+  color: black;
+  background-color: #ecf0f3;
+  box-shadow: inset -5px -5px 12px white, inset 5px 5px 12px rgba(0,0,0,.16);
+  font-size: 2.3rem;
+  font-weight: 500;
+  text-align: right;
+
+}
+
+ .buttons{
+  
+   display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around; 
+  padding: 27px;
+
+  text-align:center ;
+}
+
+
+button{
+  text-align: center;
+  cursor: pointer;
+  width: 40px;
+  height:50px;
+  flex: 0 0 22%;
+  margin: 7px 0;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #ecf0f3;
+  border-radius: 50%;
+  box-shadow: inset -5px -5px 12px white, inset 5px 5px 12px rgba(0,0,0,.16);
+  font-size: 2rem;
+  
+
+}
+
+
+.btn-equal{
+  width: 100%;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-right: -1rem;
+
+}
+
+.btn-clear{
+  text-align:center;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1rem 1rem;
+  letter-spacing: 2px;
+  width: 100%;
+  margin-left: -1rem;
+  border-radius: 10px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.description{
+  margin-top: -1.30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 15%;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
+
+}
+.made{
+font-size: 7px;
+}
+
+
+.btn-equal{
+  font-size: 1.55rem;
+  
+}
+
+.fa-solid{
+  font-size:1rem ;
+  text-align: center;
+  margin-top: -3rem;
+}
